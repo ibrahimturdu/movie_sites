@@ -193,8 +193,8 @@ justify-content: space-around;
     display: flex;
     align-items: center;
     column-gap: 30px;
-    transform: 0;
     transform: translateX(0);
+    transition: 1s all ease-in-out;
 }
 
 .movie-list-wrapper{
@@ -272,4 +272,36 @@ transition: 0.5s all ease;
 
     .arrow:hover{
         opacity: 1;
+    }
+/* beyaz mod */
+
+    .container.active{
+        background-color: white;
+    }
+
+    .navbar.active{
+        background-color: white;
+        color: black;
+    }
+
+    .sidebar.active{
+        background-color: white;
+    }
+
+    .sidebar i.active{
+        color: black;
+    }
+
+    .toggle.active{
+        background-color: black;
+    }
+
+    .toggle-ball.active{
+        background-color: white;
+        transform: translateX(-20px);
+    }
+
+    .movie-list-filter select.active{
+        background-color: white;
+        color: black;
     }
