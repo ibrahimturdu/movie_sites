@@ -292,6 +292,10 @@ transition: 0.5s all ease;
         color: black;
     }
 
+    .movie-list-title.active{
+        color: black;
+    }
+
     .toggle.active{
         background-color: black;
     }
