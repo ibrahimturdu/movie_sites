@@ -194,6 +194,7 @@ justify-content: space-around;
     align-items: center;
     column-gap: 30px;
     transform: 0;
+    transform: translateX(0);
 }
 
 .movie-list-wrapper{
