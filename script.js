@@ -7,7 +7,6 @@ arrows.forEach((arrow, i) => {
     arrow.addEventListener("click", function () {
         clickCounter++;
         if (imageItem - (4 + clickCounter) >= 0) {
-            console.log(movieLists[i].computedStyleMap().get("transform")[0].x.value,clickCounter);
             movieLists[i].style.transform = `translateX(${movieLists[i].computedStyleMap().get("transform")[0].x.value - 300}px)`;
         }
         else {
