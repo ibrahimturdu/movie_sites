@@ -93,6 +93,7 @@ justify-content: space-around;
     cursor:pointer;
     position: absolute;
     right: 1px;
+    transition: .3s ease all;
 }
 
 .sidebar{
